@@ -1,2 +1,143 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, escala inicial=1.0">
+    <title>ONG - Página Inicial</title>
+ </head>
+ <body>
+    <header>
+        <h1>ONG - Organização Não Governamental</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></ li>
+                <li><a href="projetos.html">Projetos< /a></li>
+                <li><a href="cadastro.html">Cadastro< /a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>A ONG é uma organização sem fins lucrativos que visa melhorar a 
+vida das pessoas em necessidade.</p>
+            <p>Nossa missão é apoio e recursos para as comunidades carentes.</p>
+            <p>Nossa visão é um mundo onde todos têm acesso a oportunidades e 
+recursos.</p>
+            <p>Nossos valores são:</p>
+            <ul>
+                <li>Respeito</li>
+                <li>Empatia</li>
+                <li>Transparência</li>
+                <li>Responsabilidade</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contato</h2>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>E-mail: [ contato@ong.org ](mailto: conta to@ong.org )</p>
+            <p>Endereço: Rua Exemplo, 123 - São Paulo, SP</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 ONG - Todos os direitos reservados.</p>
+    </footer>
+ </body>
+ </html>
+ <!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG - Projetos</title>
+ </head>
+ <body>
+    <header>
+        <h1>ONG - Projetos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></ li>
+                <li><a href="projetos.html">Projetos< /a></li>
+                <li><a href="cadastro.html">Cadastro< /a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Nossos Projetos</h2>
+            <p>Conheça nossos projetos e ações que visam melhorar a vida das 
+pessoas em necessidade.</p>
+            <ul>
+                <li>
+                    <h3>Projeto 1</h3>
+                    <p>Descrição do projeto 1.</p>
+                    <img src="imagem1.jpg" alt="Imagem do projeto 1">
+                </li>
+                <li>
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do projeto 2.</p>
+                    <img src="imagem2.jpg" alt="Imagem do projeto 2">
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Como ajudar</h2>
+            <p>Você pode ajudar se tornando um voluntário ou fazendo uma 
+doação.</p>
+            <p>Para saber mais, entre em contato conosco.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 ONG - Todos os direitos reservados.</p>
+    </footer>
+ </body>
+ </html>
+ <!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG - Cadastro</title>
+ </head>
+<body>
+    <header>
+        <h1>ONG - Cadastro</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></ li>
+                <li><a href="projetos.html">Projetos< /a></li>
+                <li><a href="cadastro.html">Cadastro< /a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Cadastro de Voluntário ou Apoiador</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" obrigatório>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" 
+pattern="\d{3}\.\d{3}\.\d{3}-\ d{2}" required>
+                <label for="telefone">Telefone:</label> <
+                input type="tel" id="telefone" name="telefone" 
+pattern="\(\d{2}\) \d{4,5}-\d{4}" required>
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" 
+required>
+                <label for="endereco">Endereço:</ label>
+                <input type="text" id="endereco" name="endereco" obrigatório>
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" 
+obrigatório>
+                <button type="submit">Cadastro</ button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 ONG - Todos os direitos reservados.</p>
+    </footer>
+ </body>
+ </html> 
