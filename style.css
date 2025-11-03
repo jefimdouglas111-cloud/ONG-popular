@@ -1,24 +1,17 @@
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #000000;
 }
 
-
-/* ==========================
-   Header e Navegação
-   ========================== */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #001604 0%, #005e3e 100%);
     color: white;
     padding: 1rem 0;/*16px*/
     position: fixed;
@@ -28,22 +21,19 @@ header {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-
 nav {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;/*32px*/
+    padding: 0 2rem;
 }
-
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
 }
-
 
 nav ul {
     display: flex;
@@ -51,14 +41,12 @@ nav ul {
     gap: 2rem;
 }
 
-
 nav a {
-    color: white;
+    color: rgb(247, 245, 245);
     text-decoration: none;
     transition: opacity 0.3s;
     font-weight: 500;
 }
-
 
 nav a:hover,
 nav a.active {
@@ -66,17 +54,12 @@ nav a.active {
     font-weight: bold;
 }
 
-
 nav a {
     opacity: 0.8;
 }
 
-
-/* ==========================
-   Hero Section - Index
-   ========================== */
 .hero {
-    background: linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)),
+    background: linear-gradient(rgb(0, 48, 34), rgba(4, 97, 61, 0.8)),
                 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23f0f0f0" width="1200" height="600"/></svg>');
     background-size: cover;
     background-position: center;
@@ -85,19 +68,17 @@ nav a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: rgb(241, 240, 240);
     margin-top: 70px;
 }
 
-
 .hero-page {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #f00606 0%, #d4d10c 100%);
     padding: 8rem 2rem 4rem;
     text-align: center;
     color: white;
     margin-top: 70px;
 }
-
 
 .hero-content, .signup-section {
     max-width: 800px;
@@ -106,7 +87,6 @@ nav a {
     animation: fadeInUp 1s ease-out;
 }
 
-
 .hero h1,
 .hero-page h1 {
     font-size: 3.5rem;
@@ -114,29 +94,25 @@ nav a {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-
 .hero p,
 .hero-page p {
     font-size: 1.3rem;
     margin-bottom: 2rem;
 }
 
-
-
 .cta-buttons {
     display: flex;
-    flex-direction: row; /* lado a lado */
-    gap: 1.5rem; /* espaço entre os botões */
-    justify-content: center; /* centraliza horizontalmente */
+    flex-direction: row; 
+    gap: 1.5rem;
+    justify-content: center; 
     align-items: center;
-    flex-wrap: wrap; /* quebra em telas pequenas */
+    flex-wrap: wrap; 
     margin-top: 2rem;
 }
 
-
 .btn-primary, .btn-secondary {
-    flex: 1 1 200px; /* largura mínima 200px, cresce se houver espaço */
-    max-width: 250px; /* não fique muito largo */
+    flex: 1 1 200px;  
+    max-width: 250px; 
     padding: 1rem 2.5rem;
     font-size: 1.2rem;
     font-weight: bold;
@@ -150,24 +126,20 @@ nav a {
     text-align: center;
 }
 
-
 .btn-primary {
-    background: #667eea;
+    background: #002e91;
     color: white;
 }
-
 
 .btn-secondary {
-    background: #764ba2;
+    background: #00572b;
     color: white;
 }
-
 
 .btn-primary:hover, .btn-secondary:hover {
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 25px rgb(248, 4, 4);
 }
-
 
 .btn-primary::after, .btn-secondary::after {
     content: '';
@@ -176,37 +148,31 @@ nav a {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: rgba(255,255,255,0.15);
+    background: rgba(4, 153, 71, 0);
     transform: rotate(45deg);
     transition: all 0.5s ease;
 }
-
 
 .btn-primary:hover::after, .btn-secondary:hover::after {
     top: -20%;
     left: -20%;
 }
 
-
-
 form fieldset {
-    border: 1px solid #ccc;
+    border: 1px solid #4d4d4d;
     border-radius: 8px;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
 }
-
 
 form legend {
     font-weight: bold;
     padding: 0 0.5rem;
 }
 
-
 .form-group {
     margin-bottom: 1rem;
 }
-
 
 .form-group label {
     display: block;
@@ -214,17 +180,15 @@ form legend {
     font-weight: 500;
 }
 
-
 .form-group input,
 .form-group select,
 .form-group textarea {
     width: 100%;
     padding: 0.75rem 1rem;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 1px solid #5c5b5b;
     font-size: 1rem;
 }
-
 
 .success-message {
     display: none; 
@@ -234,10 +198,51 @@ form legend {
     text-align: center;
 }
 
-
 footer {
     text-align: center;
     padding: 2rem;
-    background: #f5f5f5;
+    background: #001d04;
     margin-top: 3rem;
 }
+#tabelaVoluntarios table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tabelaVoluntarios th, 
+#tabelaVoluntarios td {
+    border: 1px solid lab(41.53% -2.19 1.16);
+    padding: 0.75rem 1rem;
+    text-align: center;
+}
+
+#tabelaVoluntarios th {
+    background-color: #005e3e;
+    color: white;
+    font-family: 600;
+}
+
+#tabelaVoluntarios tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#tabelaVoluntarios tr:hover {
+    background-color: #e0e0ff;
+}
+#tabelaVoluntarios table {
+    border-radius: 8px;
+     overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0, 1);
+}
+
+#tabelaVoluntarios p{
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+    padding: 1rem;
+}
+
+
+
